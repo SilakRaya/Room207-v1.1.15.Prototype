@@ -10,26 +10,31 @@ config_version=5
 
 [application]
 
-config/name="Room207 (1.0.0)"
-run/main_scene="uid://bv7uk01qb30s2"
+config/name="Room207-1.1.16.Prototype"
+run/main_scene="uid://b1trcnyiophq4"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="uid://bga4rp07gq8wk"
-
-[autoload]
-
-BgMusic="*uid://cn5mjo66dbf7t"
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
-window/size/resizable=false
+window/size/initial_position_type=0
+window/size/borderless=true
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep_width"
 
 [dotnet]
 
 project/assembly_name="Room207-Prototype"
+
+[file_customization]
+
+folder_colors={
+"res://Blender/": "orange",
+"res://EpisodeOne/": "yellow",
+"res://Fonts/": "green",
+"res://Ost/": "pink"
+}
 
 [input]
 
