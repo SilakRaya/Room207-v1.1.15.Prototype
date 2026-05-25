@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Room207-1.1.16.Prototype"
+config/name="Room207"
+config/version="1.2.2"
 run/main_scene="uid://b1trcnyiophq4"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="uid://bga4rp07gq8wk"
